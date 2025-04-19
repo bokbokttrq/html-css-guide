@@ -2,6 +2,7 @@
     text-decoration: underline;
     text-align: center;
     line-height: 1.6em;
+    color: lightcoral;
 }
 body{
     background-color: lightgreen;
@@ -15,8 +16,14 @@ body{
 .box-a{
     background-color: lightcyan;
     color: black;
+    border: 5px lightslategrey solid;
+    margin-top: 1em;
+    border-width: 6px;
+    /* border-top-style: dotted ; */
+    border-radius: 1rem;
+    padding: 2%;
 }
 .container{
-    width: 960px;
+    width: 80%;
     margin: auto;
 }
