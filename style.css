@@ -22,8 +22,43 @@ body{
     /* border-top-style: dotted ; */
     border-radius: 1rem;
     padding: 2%;
+
 }
 .container{
     width: 80%;
     margin: auto;
+    margin-bottom: 200px;
+}
+
+.box-a h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    color: black;
+    /* word-spacing: 0.1em; */
+}
+.box-b{
+    border: lightcoral solid;
+    padding: 20px;
+    margin: 4em 0;
+}
+.categories{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    
+}
+.categories ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.categories a{
+    text-decoration: none;
+    font-size: larger;
+}
+.categories a:hover{
+    color: lightblue;
+}
+.categories h3{
+    text-align: center;
 }
