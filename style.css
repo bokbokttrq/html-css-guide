@@ -127,4 +127,25 @@ body{
     width: 30.33%;
     border: 1px black solid;
     margin: 10px 1.5%;
+    margin-bottom: 3em;
+    text-align: center;
+}
+.row-2{
+    width: 100%;
+    margin: auto;
+    padding: 0;   
+}
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#side-bar{
+    float: right;
+    width: 30%;
+    color: white;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
 }
