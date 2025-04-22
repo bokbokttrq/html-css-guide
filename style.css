@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .bro1{
     text-align: center;
     line-height: 1.6em;
@@ -89,7 +92,39 @@ body{
     color: white;
     background-color: black;
     margin-left: 25em;
+    cursor: pointer;
+    border-radius: 15px;
 }
 .frm textarea{
     margin-bottom: 40px;
+}
+.submit-butt:hover{
+    background-color: lightgreen;
+}
+.ser{
+    background-color: beige;
+    color: black;
+    width: 20%;
+    cursor: pointer;
+    border-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.ser:hover{
+    background-color: lightgreen;
+}
+.row{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+.block{
+    float: left;
+    width: 30.33%;
+    border: 1px black solid;
+    margin: 10px 1.5%;
 }
