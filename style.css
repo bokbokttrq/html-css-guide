@@ -1,11 +1,10 @@
 .bro1{
-    text-decoration: underline;
     text-align: center;
     line-height: 1.6em;
     color: lightcoral;
 }
 body{
-    background-color: lightgreen;
+    background-color: #ded1bd;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.4em;
@@ -14,9 +13,8 @@ body{
     margin: 0;
 }
 .box-a{
-    background-color: lightcyan;
+    background-color: beige;
     color: black;
-    border: 5px lightslategrey solid;
     margin-top: 1em;
     border-width: 6px;
     /* border-top-style: dotted ; */
@@ -27,20 +25,21 @@ body{
 .container{
     width: 80%;
     margin: auto;
-    margin-bottom: 200px;
+    margin-bottom: 55px;
 }
 
 .box-a h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
     text-transform: capitalize;
-    letter-spacing: 0.1em;
+    letter-spacing: 1px;
     color: black;
     /* word-spacing: 0.1em; */
 }
 .box-b{
-    border: lightcoral solid;
-    padding: 20px;
+    border-radius: 2rem;
+    background-color: beige;
+    padding: 60px;
     margin: 4em 0;
 }
 .categories{
@@ -61,4 +60,36 @@ body{
 }
 .categories h3{
     text-align: center;
+}
+.categories li{
+    /* list-style-image: url(./images.jpeg); */
+    padding-bottom: 10px;
+}
+.frm{
+    padding: 20px;
+}
+.frm .form-group{
+    padding-bottom: 14px;
+}
+.frm label {
+    display: block;
+}
+.frm input{
+    padding: 8px;
+    width: 100%;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.frm textarea{
+    padding: 8px;
+    width: 100%;
+}
+.frm .submit-butt{
+    width: 40%;
+    color: white;
+    background-color: black;
+    margin-left: 25em;
+}
+.frm textarea{
+    margin-bottom: 40px;
 }
