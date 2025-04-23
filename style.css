@@ -165,7 +165,16 @@ body{
     position: absolute;
     bottom: 50px;
     left: 150px;
+    background-color: lightgreen;
+    z-index: 1;
 }
+.p-box h2{
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    background-color: lightcoral;
+    z-index: 0;
+} 
 .public-button1{
     position: fixed;
     font-size: larger;
@@ -180,5 +189,5 @@ body{
     left: 10px;
     font-size: larger;
     background-color: blue;
-    color: white;
+    color: white; 
 }
