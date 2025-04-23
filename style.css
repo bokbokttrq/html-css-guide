@@ -135,6 +135,9 @@ body{
     margin: auto;
     padding: 0;   
 }
+.clear{
+    clear: both;
+}
 #main-block{
     float: left;
     width: 70%;
@@ -148,4 +151,34 @@ body{
     background-color: gray;
     padding: 20px;
     text-align: center;
+}
+.p-box{
+    margin-top: 30px;
+    margin-bottom: 600px;
+    width: 670px;
+    height: 500px;
+    border: 1px black solid;
+    position: relative;
+}
+
+.p-box h3{
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+}
+.public-button1{
+    position: fixed;
+    font-size: larger;
+    bottom: 200px;
+    left: 10px;
+    background-color: lightgreen;
+    color: white;
+}
+.public-button2{
+    position: fixed;
+    bottom: 165px;
+    left: 10px;
+    font-size: larger;
+    background-color: blue;
+    color: white;
 }
